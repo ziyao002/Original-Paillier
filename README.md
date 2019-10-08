@@ -1,3 +1,5 @@
 # Original-Paillier
-Original Paillier cryptosystem
-C++, with NTL and GMP.
+
+Original Paillier cryptosystem.
+
+Using C++ with NTL and GMP.
