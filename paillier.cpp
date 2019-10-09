@@ -127,9 +127,6 @@ NTL::ZZ Paillier::encrypt(const NTL::ZZ& message) {
 }
 
 NTL::ZZ Paillier::decrypt(const NTL::ZZ& ciphertext) {
-    /* NOTE: NTL::PowerMod will fail if the first input is too large
-     * (which I assume means larger than modulus).
-     */
 	/* Paillier decryption function. Takes in a ciphertext in F(modulus**2), and returns a message in F(modulus).
      *
       * Parameters
