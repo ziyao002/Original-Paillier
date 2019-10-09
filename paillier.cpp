@@ -3,6 +3,9 @@
 #include "paillier.h"
 using namespace std;
 
+/* Reference: Paillier, P. (1999, May). Public-key cryptosystems based on composite degree residuosity classes. */
+
+
 NTL::ZZ Gen_Coprime(const NTL::ZZ& n){
 	 /* Coprime generation function. Generates a random coprime number of n.
 	 *
