@@ -1,4 +1,4 @@
 # Original-Paillier
 
-Original Paillier cryptosystem.
+Original Paillier-cryptosystem.
 Use C++ with NTL and GMP.
